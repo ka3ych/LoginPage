@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url(paisagem.png);
+    background-size: cover;
+}
+#form {
+    position: absolute;
+    background-color: rgba(236, 26, 26, 0.856);
+    border-radius: 10px;
+    width: 450px;
+    height: 500px;
+    text-align: center;
+    font-family: 'PT Sans', sans-serif;
+
+    background: rgba(255, 255, 255, 0.281);
+    box-shadow: 0 8px 32px 0 rgba(57, 33, 59, 0.37);
+    backdrop-filter: blur( 5px );
+    border-radius: 10px;
+    border: 2px solid rgba(255, 255, 255, 0.473);
+}
+#form h1 {
+    margin: 50px 0 10px 0;
+    font-size: 3.5em;
+    font-weight: bold;
+}
+.fab, #form h1 {
+    color: rgb(58, 58, 58);
+}
+i {
+    margin: 10px;
+    padding: 15px 10px 15px 10px;
+    border-radius: 50%;
+    border: 2px solid rgb(255, 255, 255);
+    font-size: 20px;
+    width: 30px;
+}
+p {
+    font-size: 1.1em;
+    margin:10px 0 5px 0;
+}
+input {
+    margin-bottom: 15px;
+    padding-left: 15px;
+    width: 330px;
+    height: 45px;
+    border: none;
+    border-radius: 3px;
+    background-color: rgb(231, 231, 231);
+}
+input:focus {
+    outline: 0;
+    border: 1px solid rgb(255, 154, 171);
+}
+button {
+    width: 200px;
+    height: 40px;
+    border-radius: 25px;
+    border: 0;
+    margin-top: 5px;
+    background-color: rgb(235, 196, 203);
+    cursor: pointer;
+    outline: 0;
+}
+button:hover {
+    transform: scale(1.04);
+    background-color: rgb(233, 166, 178);
+}
